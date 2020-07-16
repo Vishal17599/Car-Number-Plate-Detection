@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 import imutils
 import pytesseract
+import tkinter as tk
 from tkinter import *
 from tkinter import filedialog
 
@@ -93,6 +94,9 @@ def start_program():
 
     # Use tesseract to covert image into string
     text = pytesseract.image_to_string(Cropped_img_loc, lang='eng')
+    plate = Label(window,  
+                      text = text).place(relx=0.5, 
+                                               rely=0.8,anchor=CENTER)
     print("Number is :", text)
 
     cv2.waitKey(0) #Wait for user input before closing the images displayed
@@ -107,6 +111,7 @@ window.geometry("450x150")
    
 #Set window background color 
 window.config(background = "#e0e0e0")
+
 
 button_explore = Button(window,  
                         text = "Browse File and Start", 
