@@ -18,13 +18,13 @@ It is a very useful tool to process the number plate of vehicles on route with h
 ## Get Started
 * Open the python file in a text editor.
 * In terminal go the project folder and run the following commands.
-   -$ pip install numpy
-   -$ pip install opencv-python
-   -$ pip install imutils
-   -Go to https://github.com/UB-Mannheim/tesseract/wiki and download the latest version installer
-   -$ pip install pytesseract
+* $ pip install numpy
+* $ pip install opencv-python
+* $ pip install imutils
+* Go to https://github.com/UB-Mannheim/tesseract/wiki and download the latest version installer
+* $ pip install pytesseract
 
 ## Screenshots
-![Orignal Image](Screenshot (195).png)
-![Canny Image](Screenshot (196).png)
-![Final Image](Screenshot (197).png)
+![Orignal Image](Screenshot%20(195).png)
+![Canny Image](Screenshot%20(196).png)
+![Final Image](Screenshot%20(197).png)
